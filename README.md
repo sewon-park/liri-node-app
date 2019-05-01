@@ -26,7 +26,7 @@ This will return below result
 * Venue location
 
 * Date of the Event 
-<img src ="/screenshot/command-spotify.png"> 
+<img src ="screenshot/command-spotify.png"> 
 
 
 ### Spotify song information
