@@ -4,13 +4,13 @@ LIRI is a language interpretation and recognition interface. Liri will be a comm
 ## Installs
 To retrieve the data that will power this app, you'll need to send requests using the axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
 
-*Node-Spotify-API
+* Node-Spotify-API
 npm install spotify
 
-*Axios
+* Axios
 npm install Axios
 
-*FS
+* FS
 npm install fs
 
 ## Get started
@@ -21,21 +21,21 @@ node liri.js concert-this <artist/band name here>
 
 This will return below result
 
-*Name of the venue
+* Name of the venue
 
-*Venue location
+* Venue location
 
-*Date of the Event 
+* Date of the Event 
 
-###Spotify song information
+### Spotify song information
 Type below in your node termial:
 node liri.js spotify-this-song '<song name here>'
 This will return below result
-*Artist(s)
-*The song's name
-**If no song is provided then your program will default to "The Sign" by Ace of Base.
-*A preview link of the song from Spotify
-*The album that the song is from
+* Artist(s)
+* The song's name
+** If no song is provided then your program will default to "The Sign" by Ace of Base.
+* A preview link of the song from Spotify
+* The album that the song is from
 
 ### OMDB movie information
 Type below in your node termial:
@@ -43,7 +43,7 @@ node liri.js movie-this '<movie name here>'
 
 This will return below result
   * Title of the movie.
-  **If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
+  ** If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
   * Year the movie came out.
   * IMDB Rating of the movie.
   * Rotten Tomatoes Rating of the movie.
@@ -55,5 +55,5 @@ This will return below result
 Type below in your node termial:
 node liri.js do-what-it-says
 
-##Result log
+## Result log
 You can find all the results of your commands in log.txt file
