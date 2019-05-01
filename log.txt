@@ -661,3 +661,75 @@ Artist: Scott Bradlee's Postmodern Jukebox
 Song's name: I Want It That Way
 Preview link: https://p.scdn.co/mp3-preview/53296f4b689baaa0be6d94e8720c044e98d4b3e3?cid=c5a872f931b24553b1e43e5e09768669
 Album: Selfies on Kodachrome
+---------------
+Name of venue: Queen Elizabeth Theatre
+Location: Vancouver, undefined, Canada
+Date of the event: 05/14/2019
+---------------
+Name of venue: Queen Elizabeth Theatre
+Location: Vancouver, undefined, Canada
+Date of the event: 05/15/2019
+---------------
+Name of venue: Keller Auditorium
+Location: Portland, undefined, United States
+Date of the event: 05/17/2019
+---------------
+Name of venue: Martin Woldson Theater at The Fox
+Location: Spokane, undefined, United States
+Date of the event: 05/18/2019
+---------------
+Name of venue: Paramount Theatre
+Location: Seattle, undefined, United States
+Date of the event: 05/20/2019
+---------------
+Name of venue: Paramount Theatre
+Location: Seattle, undefined, United States
+Date of the event: 05/21/2019
+---------------
+Name of venue: Matthew Knight Arena
+Location: Eugene, undefined, United States
+Date of the event: 05/23/2019
+---------------
+Name of venue: Napa Valley Expo
+Location: Napa, undefined, United States
+Date of the event: 05/24/2019
+---------------
+Name of venue: Napa Valley Expo
+Location: Napa, undefined, United States
+Date of the event: 05/25/2019
+---------------
+Name of venue: Tusindårsskoven
+Location: Odense, undefined, Denmark
+Date of the event: 06/29/2019
+---------------
+Name of venue: Filmnächte am Elbufer
+Location: Dresden-gittersee, undefined, Germany
+Date of the event: 07/02/2019
+---------------
+Name of venue: Waldbühne Berlin
+Location: Berlin-altglienicke, undefined, Germany
+Date of the event: 07/03/2019
+---------------
+Name of venue: SAP Arena
+Location: Mannheim, undefined, Germany
+Date of the event: 07/05/2019
+---------------
+Name of venue: Kleine Olympiahalle München
+Location: München, undefined, Germany
+Date of the event: 07/06/2019
+---------------
+Name of venue: SPORTPALEIS
+Location: Merksem, undefined, Belgium
+Date of the event: 07/09/2019
+---------------
+Name of venue: Ziggo Dome
+Location: Amsterdam, undefined, Netherlands
+Date of the event: 07/10/2019
+---------------
+Name of venue: Hyde Park
+Location: London, undefined, United Kingdom
+Date of the event: 07/12/2019
+---------------
+Name of venue: Nowlan Park
+Location: Kilkenny, undefined, Ireland
+Date of the event: 07/14/2019
