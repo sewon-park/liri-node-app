@@ -57,3 +57,8 @@ node liri.js do-what-it-says
 
 ## Result log
 You can find all the results of your commands in log.txt file
+
+
+## Demo video 
+The demo video shows how the app works
+https://drive.google.com/open?id=1TEVYHvaDZSBBS6S7HJ1wIgcc9RKsuUeo
