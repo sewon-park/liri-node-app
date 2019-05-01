@@ -15,20 +15,6 @@ npm install fs
 
 ## Get started
 
-### Bands in Town Artist Events
-Type below in your node termial:
-node liri.js concert-this <artist/band name here>
-
-This will return below result
-
-* Name of the venue
-
-* Venue location
-
-* Date of the Event 
-<img src ="screenshot/command-concert.PNG" width="500"> 
-<img src ="screenshot/result-concert.PNG"> 
-<img src ="screenshot/log-concert.PNG"> 
 
 
 ### Spotify song information
@@ -41,7 +27,9 @@ This will return below result
 * A preview link of the song from Spotify
 * The album that the song is from
  
-
+<img src ="screenshot/command-spotify.PNG" width="700"> 
+<img src ="screenshot/result-spotify.PNG" width="700"> 
+<img src ="screenshot/log-spotify.PNG" width="700"> 
 
 ### OMDB movie information
 Type below in your node termial:
@@ -58,15 +46,32 @@ This will return below result
   * Plot of the movie.
   * Actors in the movie.
   
-<img src ="screenshot/command-movie.PNG"> 
-<img src ="screenshot/result-movie.PNG"> 
-<img src ="screenshot/log-movie.PNG"> 
+<img src ="screenshot/command-movie.PNG" width="700"> 
+<img src ="screenshot/result-movie.PNG" width="700"> 
+<img src ="screenshot/log-movie.PNG" width="700"> 
+
+### Bands in Town Artist Events
+Type below in your node termial:
+node liri.js concert-this <artist/band name here>
+
+This will return below result
+
+* Name of the venue
+
+* Venue location
+
+* Date of the Event 
+<img src ="screenshot/command-concert.PNG" width="700"> 
+<img src ="screenshot/result-concert.PNG" width="700"> 
+<img src ="screenshot/log-concert.PNG" width="700"> 
+
+
 ### random: execute the command in random.txt file
 Type below in your node termial:
 node liri.js do-what-it-says
 
-<img src ="screenshot/command-random.PNG"> 
-<img src ="screenshot/result-random.PNG"> 
+<img src ="screenshot/command-random.PNG" width ="700"> 
+<img src ="screenshot/result-random.PNG" width ="700"> 
 
 
 ## Result log
