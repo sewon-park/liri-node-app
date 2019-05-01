@@ -26,6 +26,8 @@ This will return below result
 * Venue location
 
 * Date of the Event 
+<img src ="screenshot/command-spotify.PNG"> 
+
 
 ### Spotify song information
 Type below in your node termial:
