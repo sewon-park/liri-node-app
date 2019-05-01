@@ -26,7 +26,7 @@ This will return below result
 * Venue location
 
 * Date of the Event 
-<img src ="screenshot/command-concert.PNG" width: "300" height: "200"> 
+<img src ="screenshot/command-concert.PNG" width: "200" height: "150"> 
 <img src ="screenshot/result-concert.PNG"> 
 <img src ="screenshot/log-concert.PNG"> 
 
