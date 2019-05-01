@@ -26,16 +26,16 @@ var addLog = function () {
     }
 
     // If no error is experienced, we'll log the phrase "Content Added" to our node console.
-    else {
-      console.log("Content Added!");
-    }
+    // else {
+    //   console.log("Content Added!");
+    // }
 
   });
 }
 
 
 //create spotify function 
-var playSpotify = function (liriParam) {
+var getSpotify = function (liriParam) {
   if (liriParam === undefined){
     spotify.search({ type: 'track', query: "The Sign"}, function (err, data){
     if (err) {
@@ -91,6 +91,11 @@ var getMovie = function (movieTitle) {
           "\nCountry: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot +
           "\nActors: " + response.data.Actors);
 
+          logResult = "\n---------------\nTitle: " + response.data.Title + "\nYear: " + response.data.Year +
+          "\nimdb Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+          "\nCountry: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot +
+          "\nActors: " + response.data.Actors;
+          addLog(logResult);
       })
   }
 
@@ -102,6 +107,13 @@ var getMovie = function (movieTitle) {
           "\nimdb Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
           "\nCountry: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot +
           "\nActors: " + response.data.Actors);
+
+          logResult = "\n---------------\nTitle: " + response.data.Title + "\nYear: " + response.data.Year +
+          "\nimdb Rating: " + response.data.imdbRating + "\nRotten Tomatoes Rating: " + response.data.Ratings[1].Value +
+          "\nCountry: " + response.data.Country + "\nLanguage: " + response.data.Language + "\nPlot: " + response.data.Plot +
+          "\nActors: " + response.data.Actors;
+          addLog(logResult);
+
       })
   }
 
@@ -119,6 +131,12 @@ var getEvent = function (artist) {
         console.log("\n---------------\nName of venue: " + response.data[i].venue.name
           + "\nLocation: " + response.data[i].venue.city + ", " + response.data[i].venue.state + ", " + response.data[i].venue.country +
           "\nDate of the event: " + moment(response.data[i].datetime).format('L'))
+
+
+        logResult = "\n---------------\nName of venue: " + response.data[i].venue.name
+        + "\nLocation: " + response.data[i].venue.city + ", " + response.data[i].venue.state + ", " + response.data[i].venue.country +
+        "\nDate of the event: " + moment(response.data[i].datetime).format('L');
+        addLog(logResult);
       }
     })
 
@@ -139,7 +157,7 @@ var readRandom = function () {
       getEvent(dataArr[1])
     }
     else if (dataArr[0] === 'spotify-this-song') {
-      playSpotify(dataArr[1])
+      getSpotify(dataArr[1])
     }
     else if (dataArr[0] === 'movie-this') {
       getMovie(dataArr[1]);
@@ -155,7 +173,7 @@ var commands = function (liriCommand, liriParam) {
     getEvent(liriParam);
   }
   else if (liriCommand === "spotify-this-song") {
-    playSpotify(liriParam);
+    getSpotify(liriParam);
   }
   else if (liriCommand === "movie-this") {
     getMovie(liriParam);
