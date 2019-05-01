@@ -26,7 +26,9 @@ This will return below result
 * Venue location
 
 * Date of the Event 
-<img src ="screenshot/command-spotify.PNG"> 
+<img src ="screenshot/command-concert.PNG" width="500" height="350"> 
+<img src ="screenshot/result-concert.PNG"> 
+<img src ="screenshot/log-concert.PNG"> 
 
 
 ### Spotify song information
@@ -38,6 +40,8 @@ This will return below result
 ** If no song is provided then your program will default to "The Sign" by Ace of Base.
 * A preview link of the song from Spotify
 * The album that the song is from
+ 
+
 
 ### OMDB movie information
 Type below in your node termial:
@@ -53,9 +57,17 @@ This will return below result
   * Language of the movie.
   * Plot of the movie.
   * Actors in the movie.
+  
+<img src ="screenshot/command-movie.PNG"> 
+<img src ="screenshot/result-movie.PNG"> 
+<img src ="screenshot/log-movie.PNG"> 
 ### random: execute the command in random.txt file
 Type below in your node termial:
 node liri.js do-what-it-says
+
+<img src ="screenshot/command-random.PNG"> 
+<img src ="screenshot/result-random.PNG"> 
+
 
 ## Result log
 You can find all the results of your commands in log.txt file
