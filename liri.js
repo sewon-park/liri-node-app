@@ -36,14 +36,14 @@ var addLog = function () {
 
 //create spotify function 
 var playSpotify = function (liriParam) {
-  spotify.search({ type: 'track', query: liriParam }, function (err, data) {
+  if (liriParam === undefined){
+    spotify.search({ type: 'track', query: "The Sign"}, function (err, data){
     if (err) {
       return console.log('Error occurred: ' + err);
     }
-
-
-
-    for (var i = 0; i < data.tracks.items.length; i++) {
+    
+    
+    else for (var i = 0; i < data.tracks.items.length; i++) {
 
 
       console.log("\n---------------\nArtist: " + data.tracks.items[i].album.artists[0].name + "\nSong's name: " + data.tracks.items[i].name +
@@ -54,6 +54,28 @@ var playSpotify = function (liriParam) {
 
       addLog(logResult);
     };
+
+  });
+}
+  else spotify.search({ type: 'track', query: liriParam }, function (err, data) {
+    if (err) {
+      return console.log('Error occurred: ' + err);
+    }
+    
+    
+    else for (var i = 0; i < data.tracks.items.length; i++) {
+
+
+      console.log("\n---------------\nArtist: " + data.tracks.items[i].album.artists[0].name + "\nSong's name: " + data.tracks.items[i].name +
+        "\nPreview link: " + data.tracks.items[i].preview_url + "\nAlbum: " + data.tracks.items[i].album.name)
+
+      logResult = "\n---------------\nArtist: " + data.tracks.items[i].album.artists[0].name + "\nSong's name: " + data.tracks.items[i].name +
+        "\nPreview link: " + data.tracks.items[i].preview_url + "\nAlbum: " + data.tracks.items[i].album.name;
+
+      addLog(logResult);
+    };
+
+
   })
 }
 
