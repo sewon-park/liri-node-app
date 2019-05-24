@@ -23,7 +23,7 @@ node liri.js spotify-this-song '<song name here>'
 This will return below result
 * Artist(s)
 * The song's name
-** If no song is provided then your program will default to "The Sign" by Ace of Base.
+ ** If no song is provided then your program will default to "The Sign" by Ace of Base.
 * A preview link of the song from Spotify
 * The album that the song is from
  
