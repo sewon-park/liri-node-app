@@ -1,5 +1,5 @@
 # liri-node-app
-LIRI is a language interpretation and recognition interface. Liri will be a command line node app that takes in parameters and gives you back data. Use this app to find information about a song, movie, or concerts of an aritist. You can also choose a random action from the random.txt file.
+LIRI is a language interpretation and recognition interface. Liri is a command line node app that takes in parameters and gives you back data. Use this app to find information about a song, movie, or concerts of an aritist. You can also choose a random action from the random.txt file.
 
 ## Installs
 To retrieve the data that will power this app, you'll need to send requests using the axios package to the Bands in Town, Spotify and OMDB APIs. You'll find these Node packages crucial for your assignment.
